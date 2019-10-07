@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiNetCore-Api</name>
+    </assembly>
+    <members>
+        <member name="M:ApiNetCore_Api.Controllers.UsersController.GetAll">
+            <summary>
+            Metodo que retorna todos usuarios do banco
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiNetCore_Api.Controllers.UsersController.GetById(System.Guid)">
+            <summary>
+            Metodo  retorna usuario pelo id 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiNetCore_Api.Controllers.UsersController.Post(ApiNetCore_Domain.Entitys.User)">
+            <summary>
+            Add user ao database
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiNetCore_Api.Controllers.UsersController.Put(ApiNetCore_Domain.Entitys.User)">
+            <summary>
+            Update use in database
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
